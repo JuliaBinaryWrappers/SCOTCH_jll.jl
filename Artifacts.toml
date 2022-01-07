@@ -1,99 +1,127 @@
 [[SCOTCH]]
 arch = "aarch64"
-git-tree-sha1 = "d41405a26037ff19905ec04cac9b370a62ae4353"
-libc = "glibc"
-os = "linux"
-
-    [[SCOTCH.download]]
-    sha256 = "7c4aeeec635d62f0179cc28136edd5fefe92c8b17e6a29079341899f9b07f359"
-    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.0+0/SCOTCH.v6.1.0.aarch64-linux-gnu.tar.gz"
-[[SCOTCH]]
-arch = "aarch64"
-git-tree-sha1 = "4217d4fbf7feb70ae43d913f710ef390e2fbf41f"
-libc = "musl"
-os = "linux"
-
-    [[SCOTCH.download]]
-    sha256 = "5344cc24bf4b407cdc7738954169f5806c899edee010133e8e0d593999121a0f"
-    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.0+0/SCOTCH.v6.1.0.aarch64-linux-musl.tar.gz"
-[[SCOTCH]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "ab9ac418d2d0da99fc035c053074be348b7a06f0"
-libc = "glibc"
-os = "linux"
-
-    [[SCOTCH.download]]
-    sha256 = "a9c88bf7af41924723c2fd43678c6be0575c94293bd061b5521b2d40a03033e9"
-    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.0+0/SCOTCH.v6.1.0.armv7l-linux-gnueabihf.tar.gz"
-[[SCOTCH]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "79fffef166c7f926fb536fa21c561d82571d7421"
-libc = "musl"
-os = "linux"
-
-    [[SCOTCH.download]]
-    sha256 = "df56460b5c7c3a03c96e38e51dc4d589a115213b439a7cbe87eb3651b37eac96"
-    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.0+0/SCOTCH.v6.1.0.armv7l-linux-musleabihf.tar.gz"
-[[SCOTCH]]
-arch = "i686"
-git-tree-sha1 = "99e029d505fab9b74dd06728aa90779f4be82353"
-libc = "glibc"
-os = "linux"
-
-    [[SCOTCH.download]]
-    sha256 = "0d3390954b070615b92d8c49d8b6e0bc82374c1d8c397e0aa588bb67503f1dc9"
-    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.0+0/SCOTCH.v6.1.0.i686-linux-gnu.tar.gz"
-[[SCOTCH]]
-arch = "i686"
-git-tree-sha1 = "c145d6ed595c4adcfea8e68dd051d2e4890920a2"
-libc = "musl"
-os = "linux"
-
-    [[SCOTCH.download]]
-    sha256 = "02585778a6f912aac368192547d50d8247b8c58e5d519128049b7268506f442d"
-    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.0+0/SCOTCH.v6.1.0.i686-linux-musl.tar.gz"
-[[SCOTCH]]
-arch = "powerpc64le"
-git-tree-sha1 = "f68895ba48ebb4b801d98ddebbe680739c762af6"
-libc = "glibc"
-os = "linux"
-
-    [[SCOTCH.download]]
-    sha256 = "d3d1603b9adb82084c9e4cb56f39cc238e2376dc61741ff5fa6ea72272f172e8"
-    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.0+0/SCOTCH.v6.1.0.powerpc64le-linux-gnu.tar.gz"
-[[SCOTCH]]
-arch = "x86_64"
-git-tree-sha1 = "fdedf13d8c6fb09a9af207702a3bcc9010514cb8"
+git-tree-sha1 = "c560fb1585b093a8b6fbaf89c3b44c35b5f7e3f8"
 os = "macos"
 
     [[SCOTCH.download]]
-    sha256 = "f7ec48c1096bcd84990d944a742ba1f37eef52a842d35d7652eff9e77065dcc8"
-    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.0+0/SCOTCH.v6.1.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "51342051466ad7393009b2dae903e7d27e480c929de8a7d619a7710978262b6d"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.aarch64-apple-darwin.tar.gz"
 [[SCOTCH]]
-arch = "x86_64"
-git-tree-sha1 = "4a9100cc5d90387a1070aa518bf55f42dfb37b7d"
+arch = "aarch64"
+git-tree-sha1 = "f8e75d7426bdf70918aeafc94f531d4a435c0135"
 libc = "glibc"
 os = "linux"
 
     [[SCOTCH.download]]
-    sha256 = "8768fdb2de04b6b220947227875cf8d8053cc879a4c9a24e3bee2933826be51b"
-    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.0+0/SCOTCH.v6.1.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "8ebea3bc6aa5e3b13a3672c735dff7c29c6faa1223a1e7e46ba5d84273cbe2b0"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.aarch64-linux-gnu.tar.gz"
 [[SCOTCH]]
-arch = "x86_64"
-git-tree-sha1 = "a8994488e910a4057163d7968dec756785eb9cab"
+arch = "aarch64"
+git-tree-sha1 = "d408c51d7b9c12ad0477c2935068d60c1d986805"
 libc = "musl"
 os = "linux"
 
     [[SCOTCH.download]]
-    sha256 = "ffb6ec171b808a938354b4e4397596abf17f948db91bdd2b25d4094661fbafce"
-    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.0+0/SCOTCH.v6.1.0.x86_64-linux-musl.tar.gz"
+    sha256 = "2118cd75f5b32bbd7ce6f7567bb967d0149c3194ad61734aa7cd9eb9b6fbbf2a"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.aarch64-linux-musl.tar.gz"
+[[SCOTCH]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "249c37a93f4a1e1120c44519a271a3a339af89da"
+libc = "glibc"
+os = "linux"
+
+    [[SCOTCH.download]]
+    sha256 = "e5ab61c36ab82a425f63c91003c3aa3d2b3fab8a855455618c7e0b7a73085de6"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.armv6l-linux-gnueabihf.tar.gz"
+[[SCOTCH]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "7a2f4deca8d4a8564d8cad170c4f912baa8772d5"
+libc = "musl"
+os = "linux"
+
+    [[SCOTCH.download]]
+    sha256 = "f4467f93598a1bb818d75b7ab00d15ffa00aa76ee57926907be2cd9f5e4dd404"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.armv6l-linux-musleabihf.tar.gz"
+[[SCOTCH]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "fcbb7b2a79ca0e619d7c346d53350789aa4f28d7"
+libc = "glibc"
+os = "linux"
+
+    [[SCOTCH.download]]
+    sha256 = "49bea79f396e05b5bca454a393e3e07dc4a4cd98f78d62c2829f22d80e2fade3"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.armv7l-linux-gnueabihf.tar.gz"
+[[SCOTCH]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "50273564368852eea73143c327b2b64bb254e120"
+libc = "musl"
+os = "linux"
+
+    [[SCOTCH.download]]
+    sha256 = "16e2b86e3d8b9b2f53204048e7f5364422256913990d8be3c82271ee78052307"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.armv7l-linux-musleabihf.tar.gz"
+[[SCOTCH]]
+arch = "i686"
+git-tree-sha1 = "0f43607cc012259c5075fa08bdbe690c1a55e391"
+libc = "glibc"
+os = "linux"
+
+    [[SCOTCH.download]]
+    sha256 = "3b553235e503c7668d35fc9995dc75f84c8b99ad7e88eaae0837985fc65f0b32"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.i686-linux-gnu.tar.gz"
+[[SCOTCH]]
+arch = "i686"
+git-tree-sha1 = "bf8e48490b745cfcc119671ad2748ff3453239dc"
+libc = "musl"
+os = "linux"
+
+    [[SCOTCH.download]]
+    sha256 = "52daddba33770bbdfff75bc36d66ca1b8b7731b0a01be9db547530d430700ea5"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.i686-linux-musl.tar.gz"
+[[SCOTCH]]
+arch = "powerpc64le"
+git-tree-sha1 = "e09a5d450ea1e4e3286b470331363e0ed15d9157"
+libc = "glibc"
+os = "linux"
+
+    [[SCOTCH.download]]
+    sha256 = "5bebabffb4a1de3143cb35ece93dc9590e6734ee5774f648670a3871902ebfad"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.powerpc64le-linux-gnu.tar.gz"
 [[SCOTCH]]
 arch = "x86_64"
-git-tree-sha1 = "f9b7c569e5d60d9eec06785d6f4197fa97e2bd7f"
+git-tree-sha1 = "7caf09d75e970e2f90fcfad9fde348ea92104485"
+os = "macos"
+
+    [[SCOTCH.download]]
+    sha256 = "2602cd521c8880e24e9961166ea6740d53492d197192e972481316d91bb7bb7c"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.x86_64-apple-darwin.tar.gz"
+[[SCOTCH]]
+arch = "x86_64"
+git-tree-sha1 = "9b557abbb805e407e085191c2a1ab4bfa763ffae"
+libc = "glibc"
+os = "linux"
+
+    [[SCOTCH.download]]
+    sha256 = "8abbd200fba239199f22f04980f9a05eef5dca3c47ebb398ed7e1132f932dd59"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.x86_64-linux-gnu.tar.gz"
+[[SCOTCH]]
+arch = "x86_64"
+git-tree-sha1 = "01dfbb1ad8f81a80d3812e7a86b38785aba6b811"
+libc = "musl"
+os = "linux"
+
+    [[SCOTCH.download]]
+    sha256 = "f48f09a96097cbc0f4d5ee0a26917ee5fe46ae9dbb981fd074b99f284dd89d2d"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.x86_64-linux-musl.tar.gz"
+[[SCOTCH]]
+arch = "x86_64"
+git-tree-sha1 = "593f3d917c83a72baa0c944f6bf407ecc60faa71"
 os = "freebsd"
 
     [[SCOTCH.download]]
-    sha256 = "7475096ca7de3174f7feea09b3153579a23a57ad8175051168ecb1c9956bd707"
-    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.0+0/SCOTCH.v6.1.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "d502d3d357074d1b8d2a07cd666bc07e51e7d39b087428deee9f8856cb361b28"
+    url = "https://github.com/JuliaBinaryWrappers/SCOTCH_jll.jl/releases/download/SCOTCH-v6.1.3+0/SCOTCH.v6.1.3.x86_64-unknown-freebsd.tar.gz"
