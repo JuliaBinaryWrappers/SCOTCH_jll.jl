@@ -7,7 +7,7 @@ using Bzip2_jll
 using XZ_jll
 JLLWrappers.@generate_wrapper_header("SCOTCH")
 JLLWrappers.@declare_library_product(libesmumps, "libesmumps.so")
-JLLWrappers.@declare_library_product(libscotch, "libscotch.so.7.0.3")
+JLLWrappers.@declare_library_product(libscotch, "libscotch.so")
 JLLWrappers.@declare_library_product(libscotcherr, "libscotcherr.so")
 JLLWrappers.@declare_library_product(libscotcherrexit, "libscotcherrexit.so")
 JLLWrappers.@declare_library_product(libscotchmetisv3, "libscotchmetisv3.so")

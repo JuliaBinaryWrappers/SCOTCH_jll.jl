@@ -7,7 +7,7 @@ using Bzip2_jll
 using XZ_jll
 JLLWrappers.@generate_wrapper_header("SCOTCH")
 JLLWrappers.@declare_library_product(libesmumps, "@rpath/libesmumps.dylib")
-JLLWrappers.@declare_library_product(libscotch, "@rpath/libscotch.7.0.3.dylib")
+JLLWrappers.@declare_library_product(libscotch, "@rpath/libscotch.dylib")
 JLLWrappers.@declare_library_product(libscotcherr, "@rpath/libscotcherr.dylib")
 JLLWrappers.@declare_library_product(libscotcherrexit, "@rpath/libscotcherrexit.dylib")
 JLLWrappers.@declare_library_product(libscotchmetisv3, "@rpath/libscotchmetisv3.dylib")
@@ -22,7 +22,7 @@ function __init__()
 
     JLLWrappers.@init_library_product(
         libscotch,
-        "lib/libscotch.7.0.3.dylib",
+        "lib/libscotch.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
