@@ -1,6 +1,6 @@
 name = "SCOTCH_jll"
 uuid = "a8d0f55d-b80e-548d-aff6-1a04c175f0f9"
-version = "7.0.3+1"
+version = "7.0.4+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
