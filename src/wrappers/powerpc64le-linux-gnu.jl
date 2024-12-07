@@ -6,12 +6,12 @@ using Zlib_jll
 using Bzip2_jll
 using XZ_jll
 JLLWrappers.@generate_wrapper_header("SCOTCH")
-JLLWrappers.@declare_library_product(libesmumps, "libesmumps.so")
-JLLWrappers.@declare_library_product(libscotch, "libscotch.so")
-JLLWrappers.@declare_library_product(libscotcherr, "libscotcherr.so")
-JLLWrappers.@declare_library_product(libscotcherrexit, "libscotcherrexit.so")
-JLLWrappers.@declare_library_product(libscotchmetisv3, "libscotchmetisv3.so")
-JLLWrappers.@declare_library_product(libscotchmetisv5, "libscotchmetisv5.so")
+JLLWrappers.@declare_library_product(libesmumps, "libesmumps.so.7.0")
+JLLWrappers.@declare_library_product(libscotch, "libscotch.so.7.0")
+JLLWrappers.@declare_library_product(libscotcherr, "libscotcherr.so.7.0")
+JLLWrappers.@declare_library_product(libscotcherrexit, "libscotcherrexit.so.7.0")
+JLLWrappers.@declare_library_product(libscotchmetisv3, "libscotchmetisv3.so.7.0")
+JLLWrappers.@declare_library_product(libscotchmetisv5, "libscotchmetisv5.so.7.0")
 function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, Zlib_jll, Bzip2_jll, XZ_jll)
     JLLWrappers.@init_library_product(
