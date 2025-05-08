@@ -16,37 +16,37 @@ function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, Zlib_jll, Bzip2_jll, XZ_jll)
     JLLWrappers.@init_library_product(
         libesmumps,
-        "lib/libesmumps.7.0.6.dylib",
+        "lib/libesmumps.7.0.7.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libscotch,
-        "lib/libscotch.7.0.6.dylib",
+        "lib/libscotch.7.0.7.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libscotcherr,
-        "lib/libscotcherr.7.0.6.dylib",
+        "lib/libscotcherr.7.0.7.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libscotcherrexit,
-        "lib/libscotcherrexit.7.0.6.dylib",
+        "lib/libscotcherrexit.7.0.7.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libscotchmetisv3,
-        "lib/libscotchmetisv3.7.0.6.dylib",
+        "lib/libscotchmetisv3.7.0.7.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libscotchmetisv5,
-        "lib/libscotchmetisv5.7.0.6.dylib",
+        "lib/libscotchmetisv5.7.0.7.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
